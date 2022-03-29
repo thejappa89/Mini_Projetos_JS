@@ -1,0 +1,41 @@
+/* Copyright (C) Jappa Developer
+
+    Distribution: Free
+    Author: Henrique Lima (Jappa)
+    My GitHub: http://www.github.com/thejappa89
+    My Linkedin: https://www.linkedin.com/in/thejappa89/
+*/
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#relogio{
+    font-size: 28px;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: #00b1b1;
+    padding: 2px 50px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+#relogio:hover{
+    transition:  0.6s;
+    background-color: #fff;
+    color: #00b1b1;
+}
+.segundos {
+    font-size: 15pt;
+}
+.jappadev-logo {
+    position: absolute;
+    cursor: pointer;
+    width: 80px;
+    bottom: 2vh;
+    right: 5vh;
+    opacity: 20%;
+}
+.jappadev-logo:hover {
+    opacity: 100%;
+}
